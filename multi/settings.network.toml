@@ -1,0 +1,12 @@
+[default]
+MAX_GAS_AMOUNT = 3000
+SIGNING_ALGORITHM = "aptos.Ed25519"
+TRANSACTION_EXPIRE_TIME = 600
+HD_PATH = "m/44/637/0/0/"
+PRECISION = 8
+
+[testnet]
+NODE_URL = "https://fullnode.testnet.aptoslabs.com/v1"
+
+[mainnet]
+NODE_URL = "https://fullnode.mainnet.aptoslabs.com/v1"

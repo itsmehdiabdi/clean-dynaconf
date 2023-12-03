@@ -1,0 +1,21 @@
+[default]
+NAME = "apt"
+REDIS_PREFIX = "apt"
+VALIDATOR_CURRENCY = "apt"
+KEY_ID = "aptos"
+
+[debug]
+DEBUG = true
+HOSTNAME = "127.0.0.1"
+PORT = 6071
+
+
+[prod]
+DEBUG = false
+HOSTNAME = "aptos6"
+PORT = 6070
+
+[vip]
+DEBUG = false
+HOSTNAME = "aptos6"
+PORT = 6070
